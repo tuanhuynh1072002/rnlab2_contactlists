@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from "react";
 import {View, Text, StyleSheet} from 'react-native'
-import { fetchRandomContact } from "/Users/asus/ReactNativeProject/RNLab2_ContactLists/utility/api";
+import { fetchRandomContact } from "../utility/api";
 import DetailListItem from "../components/DetailListItem";
 import colors from "../utility/colors";
 import ContactThumbnail from "../components/ContactThumbnail";
